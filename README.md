@@ -1,4 +1,6 @@
 # Proyecto PetStore - Actualización de Mascotas
+![image](https://github.com/user-attachments/assets/58a9d9b5-35be-4d23-a0ae-b08f16493c2b)
+
 
 ## 📌 **Objetivo**
 
