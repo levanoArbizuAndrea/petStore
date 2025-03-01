@@ -13,9 +13,9 @@ import java.util.logging.Logger;
         plugin = {"json:target/build/cucumber.json"},
         features = {"src/test/resources/features"},
         glue = {"com.brooker.stepdefinitions"},
-        tags = "@PutPetStore "
-
+        tags = "@PutPetStore"
 )
+
 public class RunnerTest {
 
     @BeforeClass

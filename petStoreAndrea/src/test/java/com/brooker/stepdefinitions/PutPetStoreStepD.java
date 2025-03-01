@@ -20,11 +20,12 @@ public class PutPetStoreStepD {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @When("^realizo una actualización de la mascota con (.*) modificando su nombre (.*) y su estado (.*)$")
-    public void realizoUnaActualizaciónDeLaMascotaConIDModificandoSuNombreNOMBREYSuEstadoESTADO(String id, String nombre, String estado ) {
+    @When("realizo una actualizacion de la mascota con {int} modificando su nombre {string} y su estado {string}")
+    public void realizo_una_actualizacion_de_la_mascota_con_modificando_su_nombre_y_su_estado(Integer id, String nombre, String estado) {
         theActorInTheSpotlight().attemptsTo(
-                AddPetTask.withData(id, nombre, estado)
+                AddPetTask.withData(String.valueOf(id), nombre, estado)
         );
     }
+
 
 }
